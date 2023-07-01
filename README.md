@@ -1,18 +1,21 @@
-<h3>DEFINIÇÃO DE VARIAVEIS</h3>
+<h2> VARIAVEIS</h2>
+
+<h4>DEFINIÇÃO DE VARIAVEIS</h4>
 
     let idade = 5
     console.log(idade);
     let altura = 180;
     console.log(altura);
 
- <h4>DEFINIÇÃO DE VARIAVEIS</h4>
+ <h4>TIPOS DE VARIAVEIS</h4>
  
     let nome = 'Douglas';     // String literal 
     let idade = 25;           // number literal
     let estaAprovado = true;  // boolean 
     let sobrenome ;           // Undefined
 
-<h3>CRIANDO OBJETO</h3>
+
+<h2>CRIANDO OBJETO</h2>
 
     let pessoa = {
        nome: 'Douglas',
@@ -21,18 +24,63 @@
        sobrenome: 'Szeskoski'
     };  
 
-<h3>CRIANDO ARRAYS</h3> 
 
-    let familia = [26,45,50,17];
-    console.log(familia.length) (resultado é o valor dos indices = quantidade de valores)
-    console.log(familia[0])
+<h2> ARRAYS</h2> 
 
-<h3>CRIANDO FUNÇÕES</h3>
+<h4>CRIANDO UMA ARRAY</h4>
 
-    <h4>NOMEAR FUNÇÕES SEMPRE USANDO VERBO + SUBSTANTIVO</h4>
+        let familia = [26,45,50,17];
+        console.log(familia.length) (resultado é o valor dos indices = quantidade de valores)
+        console.log(familia[0])
+
+<H4> INSERINDO NUMEROS</H4>
+
+<H5>INICIO</H5>
+
+        nomeArray.unshift(0); // ADICIONAR NUMERO NA PRIMEIRA CASA DO ARRAY  
+    
+<H5>MEIO</H5>
+
+        nomeArray.splice(1,0,'a'); (INDICE, EXCLUIR?, ADICIONAR)    // ADICIONAR NUMERO NO MEIO DO ARRAY
+
+ <H5>FIM</H5>
+
+        nomeArray.push(5); // ADICIONAR NUMERO NA ULTIMA CASA DO ARRAY
+
+<H4> REMOVENDO NUMEROS</H4>
+
+<H5>INICIO</H5>
+
+        nomeArray.shift(0); // REMOVER O NUMERO NA PRIMEIRA CASA DO ARRAY  
+    
+<H5>MEIO</H5>
+
+        nomeArray.splice(1,1,'a'); (INDICE, EXCLUIR?, ADICIONAR)    // REMOVER NUMERO NO INDICE 1 DO ARRAY
+
+ <H5>FIM</H5>
+
+        nomeArray.pop(5); // REMOVER O NUMERO NA ULTIMA CASA DO ARRAY
+
+<H5>REMOVER TODOS OS NUMEROS</H5>
+
+    nomeArray.length = 0;
+    nomeArray.splice = (0, nomeArray.length); (IRA APAGAR O NUMERO DE LEMENTOS DA ARRAY)
 
 
-<H3>OPERADORES</H3>
+<H4>ENCONTRANDO ELEMENTOS DENTRO DA ARRAY</H4>
+
+    nomeArray.indexOf(2); (VALOR) (RETORNA O INDICE) (SE O RESULTADO FOR -1 É PQ A POSIÇÃO NAO EXISTE)
+    nomeArray.lastindexOf(2); (VALOR) (CASO TENHA NUMERO REPETIDOS RETORNA O INDICE D AULTIMA VEZ Q APARECE)
+    console.log(2); (valor) (RETORNA TRUE OU FALSE, SE EXISTE OU NAO ESSE VALOR)
+
+    
+<h2>CRIANDO FUNÇÕES</h2>
+
+        <h4>NOMEAR FUNÇÕES SEMPRE USANDO VERBO + SUBSTANTIVO</h4>
+
+
+
+<H2>OPERADORES</H2>
 
     Operadores Aritmeticos   (++ , --);
     Operadores de atribuição (= , += , -= );
@@ -61,7 +109,8 @@
         }
 
 
-<h3>FACTORY FUNCTIONS</h3>
+
+<h2>FACTORY FUNCTIONS</h2>
 
       function realizarCadastro(nome,email,endereco){
         return{
@@ -77,7 +126,8 @@
       const pessoa1 = realizarCadastro ('Douglas', 'douglas@email', 'rua ...')
 
 
-<h3>CONSTRUCTOR FUNCTIONS</h3>
+
+<h2>CONSTRUCTOR FUNCTIONS</h2>
 
       function Cadastro(nome,email,endereco){       
           this.nome = nome,          
@@ -90,3 +140,32 @@
       }  
 
       const pessoa1 =  new Cadastro ('Douglas', 'douglas@email', 'rua ...')
+
+
+
+<h2>MATH</h2>
+
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+
+
+
+<h2>STRING</h2>
+
+    const mensagem = 'mensagem'                     // tipo primitvo
+    const outraMensagem = new String('mensagem')    // tipo objeto
+
+
+
+<h2>TEMPLATE LITERAL</h2>
+
+        Ao usar os caracteres `` (acento circunflexo invertido), a frase nao muda 
+    mesmo contendo caracteres especiais.
+
+
+
+<h2>DATE</h2>
+
+    const dataAtual = new Date();                    // caso nao seja passado os parametros, será usado a data atual
+    const data = new Date('March 06 2019 09:30');    // data desejada
+    const data2 = new Date(2019, 03,06, 9, 40);      // o objeto ja será passado com a data ajustada
+
