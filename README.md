@@ -1,16 +1,16 @@
 <h3>DEFINIÇÃO DE VARIAVEIS</h3>
 
-    let idade = 5    <br />
-    console.log(idade);	<br />
-    let altura = 180;   	<br />
-    console.log(altura);	<br />
+    let idade = 5
+    console.log(idade);
+    let altura = 180;
+    console.log(altura);
 
  <h4>DEFINIÇÃO DE VARIAVEIS</h4>
  
-    let nome = 'Douglas';     // String literal <br />
-    let idade = 25;           // number literal<br />
-    let estaAprovado = true;  // boolean <br />
-    let sobrenome ;           // Undefined <br />
+    let nome = 'Douglas';     // String literal 
+    let idade = 25;           // number literal
+    let estaAprovado = true;  // boolean 
+    let sobrenome ;           // Undefined
 
 <h3>CRIANDO OBJETO</h3>
 
