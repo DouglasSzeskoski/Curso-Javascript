@@ -75,3 +75,18 @@
       }  
 
       const pessoa1 = realizarCadastro ('Douglas', 'douglas@email', 'rua ...')
+
+
+<h3>CONSTRUCTOR FUNCTIONS</h3>
+
+      function Cadastro(nome,email,endereco){       
+          this.nome = nome,          
+          this.email = email,
+          this.endereco = endereco,
+            this.dados(){
+                console.log("Cadastro realizado")
+           
+        }
+      }  
+
+      const pessoa1 =  new Cadastro ('Douglas', 'douglas@email', 'rua ...')
