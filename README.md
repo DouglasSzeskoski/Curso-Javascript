@@ -1,10 +1,9 @@
 <h3>DEFINIÇÃO DE VARIAVEIS</h3>
 
     let idade = 5    <br />
-    console.log(idade);	<br />					
-    let altura = 180;   	<br />					
-    console.log(altura);	<br />									
-
+    console.log(idade);	<br />
+    let altura = 180;   	<br />
+    console.log(altura);	<br />
 
  <h4>DEFINIÇÃO DE VARIAVEIS</h4>
  
