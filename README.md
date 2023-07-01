@@ -59,3 +59,19 @@
         for(let cor of cores){
         console.log(cor) //(sairá o valor da variavel))
         }
+
+
+<h3>FACTORY FUNCTIONS</h3>
+
+      function realizarCadastro(nome,email,endereco){
+        return{
+            nome,             (QUANDO NOME DA VARIAVEL É IGUAL O 
+            email,                NOME DO PARAMETRO NAO PRECISA 
+            endereco,                nome = nome, )
+            dados(){
+                console.log("Cadastro realizado")
+            }
+        }
+      }  
+
+      const pessoa1 = realizarCadastro ('Douglas', 'douglas@email', 'rua ...')
