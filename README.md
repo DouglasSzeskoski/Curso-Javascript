@@ -73,6 +73,13 @@
     nomeArray.lastindexOf(2); (VALOR) (CASO TENHA NUMERO REPETIDOS RETORNA O INDICE D AULTIMA VEZ Q APARECE)
     console.log(2); (valor) (RETORNA TRUE OU FALSE, SE EXISTE OU NAO ESSE VALOR)
 
+    for (numero of numero )
+    nomeArray.forEach(function (nomeArray)){}
+    nomeArray.forEach((nomeArray,indice) => console.log(nomeArray, indice)) - exibirá o valor e o indice
+
+<H4>COMBINANDO ARRAYS</H4>
+
+    const combinado = nomeArray.join ('.'); adicionara ponto na array
     
 <h2>CRIANDO FUNÇÕES</h2>
 
@@ -169,3 +176,7 @@
     const data = new Date('March 06 2019 09:30');    // data desejada
     const data2 = new Date(2019, 03,06, 9, 40);      // o objeto ja será passado com a data ajustada
 
+
+<h2>INPUT DO USUARIO</h2>
+
+let CorFavorita = prompt ('pergunta para o usuario')
