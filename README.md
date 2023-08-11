@@ -1,3 +1,7 @@
+<h1> JAVASCRIPT</h1>
+
+ ***DOCUMENTAÇÃO***  ---------> <a>https://developer.mozilla.org/pt-BR/docs/Web/JavaScript</a>
+
 <h2> VARIAVEIS</h2>
 
 <h4>DEFINIÇÃO DE VARIAVEIS</h4>
